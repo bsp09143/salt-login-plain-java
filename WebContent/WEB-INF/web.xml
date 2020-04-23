@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>login-salt-hashing</display-name>
+  <welcome-file-list id="WelcomeFile_1">
+	  <welcome-file>\WEB-INF\LoginPage.jsp</welcome-file> 
+	  <welcome-file>\WEB-INF\success.html</welcome-file>
+	  <welcome-file>\WEB-INF\error.html</welcome-file>
+  </welcome-file-list>
+  <display-name>login</display-name>
+	<servlet>
+		<description></description>
+		<display-name>LoginController</display-name>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>com.javahero.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/LoginController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>PassTypeController</display-name>
+		<servlet-name>PassTypeController</servlet-name>
+		<servlet-class>com.javahero.PassTypeController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PassTypeController</servlet-name>
+		<url-pattern>/PassTypeController</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
