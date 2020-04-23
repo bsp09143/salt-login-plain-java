@@ -11,7 +11,7 @@
 		<description></description>
 		<display-name>LoginController</display-name>
 		<servlet-name>LoginController</servlet-name>
-		<servlet-class>com.javahero.LoginController</servlet-class>
+		<servlet-class>com.javahero.controller.LoginController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LoginController</servlet-name>
@@ -22,7 +22,7 @@
 		<description></description>
 		<display-name>PassTypeController</display-name>
 		<servlet-name>PassTypeController</servlet-name>
-		<servlet-class>com.javahero.PassTypeController</servlet-class>
+		<servlet-class>com.javahero.controller.PassTypeController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>PassTypeController</servlet-name>
